@@ -4,8 +4,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  base: '/donisko711-tools/',
   return {
+    base: '/donisko711-tools/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
